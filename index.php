@@ -39,7 +39,7 @@ This can take around 10 seconds, as large amounts of XML must be fetched and
 then parsed to determine the correct way to login, and the addresses to use
 *****************************************************************************/
 /* Connect to the Dynamics CRM 2011 server */
-echo date('Y-m-d H:i:s')."\tConnecting to the CRM... ";
+echo date('Y-m-d H:i:s')."\tConnecting to the CRM... \r\n";
 $crmConnector = new DynamicsCRM2011_Connector($discoveryServiceURI, $organizationUniqueName, $loginUsername, $loginPassword);
 echo 'Done at '.date('Y-m-d H:i:s').PHP_EOL;
 
