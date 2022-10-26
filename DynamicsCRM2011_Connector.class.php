@@ -106,13 +106,6 @@ class DynamicsCRM2011_Connector extends DynamicsCRM2011 {
 	 * @return DynamicsCRM2011Connector
 	 */
 	
-	 @param string $_discoveryURI = 'https://disco.crm5.dynamics.com/XRMServices/2011/Discovery.svc';
-	 @param string $_organizationUniqueName = 'johnfoordpteltddev';
-	 @param string $_username = 'DevUser@johnfoord.com';
-	 @param string $_password = 'Fat39622';
-	 @param boolean $_debug = 'FALSE';
-	 @return DynamicsCRM2011Connector
-	
 	function __construct($_discoveryURI, $_organizationUniqueName = NULL, $_username = NULL, $_password = NULL, $_debug = FALSE) {
 		/* Enable or disable debug mode */
 		self::$debugMode = $_debug;
