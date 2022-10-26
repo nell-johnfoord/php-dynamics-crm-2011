@@ -53,6 +53,9 @@
  * Additionally, the returned data can be parsed in such a way that it can be used as 
  * simple PHP Objects, rather than complex XML to be parsed.
  */
+
+echo date('Y-m-d H:i:s')."BEGIN: class DynamicsCRM2011_Connector... \r\n";
+
 class DynamicsCRM2011_Connector extends DynamicsCRM2011 {
 	/* Organization Details */
 	private $discoveryURI;
@@ -2567,5 +2570,7 @@ END;
 		return $executeNode;
 	}
 }
+
+echo date('Y-m-d H:i:s')."END: class DynamicsCRM2011_Connector... \r\n";
 
 ?>
