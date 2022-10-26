@@ -39,7 +39,7 @@ This can take around 10 seconds, as large amounts of XML must be fetched and
 then parsed to determine the correct way to login, and the addresses to use
 *****************************************************************************/
 /* Connect to the Dynamics CRM 2011 server */
-echo date('Y-m-d H:i:s')."\tConnecting to the CRM...xxx \r\n";
+echo date('Y-m-d H:i:s')."\tConnecting to the CRM...(index.php) \r\n";
 /*echo("\n");
 echo $discoveryServiceURI;
 echo("\n");
@@ -49,8 +49,9 @@ echo $loginUsername;
 echo("\n");
 echo $loginPassword;
 echo("\n");*/
+/*
 $crmConnector = new DynamicsCRM2011_Connector($discoveryServiceURI, $organizationUniqueName, $loginUsername, $loginPassword);
-echo 'Done at '.date('Y-m-d H:i:s').PHP_EOL;
+echo 'Done at '.date('Y-m-d H:i:s').PHP_EOL;*/
 
 /****************************************************************************
 The second option is more focussed on interactive systems, i.e. web-based 
@@ -74,6 +75,7 @@ after receiving Login details (assuming the Object is kept for the entire
 session)
 *****************************************************************************/
 if (!defined('SKIP_DEMO1')) {
+	echo date('Y-m-d H:i:s')."inside SKIP DEMO1 \r\n";
 	/* Connect to the Dynamics CRM 2011 server */
 	echo date('Y-m-d H:i:s')."\tConnecting to the CRM... ";
 	$crmConnector = new DynamicsCRM2011_Connector($discoveryServiceURI, $organizationUniqueName);
