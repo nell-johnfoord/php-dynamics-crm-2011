@@ -11,9 +11,9 @@ if (file_exists('DynamicsCRM2011.config.local.php')) include 'DynamicsCRM2011.co
 else include 'DynamicsCRM2011.config.php';
 
 /* Choose which demos to execute by commenting out values here */
-define('SKIP_DEMO1', TRUE);
+define('SKIP_DEMO1', FALSE);
 define('SKIP_DEMO2', TRUE);
-define('SKIP_DEMO3', FALSE);
+define('SKIP_DEMO3', TRUE);
 define('SKIP_DEMO4', TRUE);
 define('SKIP_DEMO5', TRUE);
 define('SKIP_DEMO6', TRUE);
