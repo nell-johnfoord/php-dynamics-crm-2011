@@ -40,6 +40,7 @@ then parsed to determine the correct way to login, and the addresses to use
 *****************************************************************************/
 /* Connect to the Dynamics CRM 2011 server */
 echo date('Y-m-d H:i:s')."\tConnecting to the CRM...xxx \r\n";
+echo "$discoveryServiceURI = ";
 echo PHP_EOL;
 echo $discoveryServiceURI;
 echo PHP_EOL;
