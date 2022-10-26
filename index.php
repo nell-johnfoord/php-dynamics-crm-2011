@@ -74,8 +74,6 @@ displaying the Login page, and then use the setDiscoveryFederationSecurity
 after receiving Login details (assuming the Object is kept for the entire
 session)
 *****************************************************************************/
-echo defined('SKIP_DEMO1');
-
 if (!defined('SKIP_DEMO1')) {
 	echo date('Y-m-d H:i:s')."inside SKIP DEMO1 \r\n";
 	/* Connect to the Dynamics CRM 2011 server */
