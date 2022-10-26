@@ -1,7 +1,7 @@
 <?php
 /* Basic configuation details */
 
-/*echo date('Y-m-d H:i:s')."BEGIN: DynamicsCRM2011.config file... \r\n"; */
+echo date('Y-m-d H:i:s')."BEGIN: DynamicsCRM2011.config file... \r\n";
 
 // Discovery Service URI -> Get this from the Customizations / Developer Resources section of the Microsoft Dynamics CRM 2011 application
 //$discoveryServiceURI = 'https://<your.domain.name>/XRMServices/2011/Discovery.svc';
