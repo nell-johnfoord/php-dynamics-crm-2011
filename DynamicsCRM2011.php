@@ -5,7 +5,7 @@
  * @author Nicholas Price
  */
 
-echo date('Y-m-d H:i:s')."BEGIN: DynamicsCRM2011.php file... \r\n";
+//echo date('Y-m-d H:i:s')."BEGIN: DynamicsCRM2011.php file... \r\n";
 
 interface DynamicsCRM2011_Interface {
 	/** Default GUID for "not known" or new Entities */
@@ -221,14 +221,14 @@ abstract class DynamicsCRM2011 implements DynamicsCRM2011_Interface {
 	}
 }
 
-echo date('Y-m-d H:i:s')."BEGIN: DynamicsCRM2011.php file... \r\n";
-echo date('Y-m-d H:i:s')."Before: spl_autoload_register... \r\n";
+//echo date('Y-m-d H:i:s')."BEGIN: DynamicsCRM2011.php file... \r\n";
+//echo date('Y-m-d H:i:s')."Before: spl_autoload_register... \r\n";
 
 /* Register the Class Loader */
 spl_autoload_register(Array('DynamicsCRM2011', 'loadClass'));
 
-echo date('Y-m-d H:i:s')."After: spl_autoload_register... \r\n";
+//echo date('Y-m-d H:i:s')."After: spl_autoload_register... \r\n";
 
-echo date('Y-m-d H:i:s')."END: DynamicsCRM2011.php file... \r\n";
+//echo date('Y-m-d H:i:s')."END: DynamicsCRM2011.php file... \r\n";
 
 ?>
