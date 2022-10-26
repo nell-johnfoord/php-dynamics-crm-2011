@@ -5,6 +5,8 @@
  * @author Nicholas Price
  */
 
+echo date('Y-m-d H:i:s')."BEGIN: DynamicsCRM2011.php file... ";
+
 interface DynamicsCRM2011_Interface {
 	/** Default GUID for "not known" or new Entities */
 	const EmptyGUID = '00000000-0000-0000-0000-000000000000';
@@ -219,7 +221,14 @@ abstract class DynamicsCRM2011 implements DynamicsCRM2011_Interface {
 	}
 }
 
+echo date('Y-m-d H:i:s')."BEGIN: DynamicsCRM2011.php file... ";
+echo date('Y-m-d H:i:s')."Before: spl_autoload_register... ";
+
 /* Register the Class Loader */
 spl_autoload_register(Array('DynamicsCRM2011', 'loadClass'));
+
+echo date('Y-m-d H:i:s')."After: spl_autoload_register... ";
+
+echo date('Y-m-d H:i:s')."END: DynamicsCRM2011.php file... ";
 
 ?>
