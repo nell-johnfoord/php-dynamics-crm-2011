@@ -11,17 +11,17 @@ if (file_exists('DynamicsCRM2011.config.local.php')) include 'DynamicsCRM2011.co
 else include 'DynamicsCRM2011.config.php';
 
 /* Choose which demos to execute by commenting out values here */
-define('SKIP_DEMO1', TRUE);
-define('SKIP_DEMO2', FALSE);
-define('SKIP_DEMO3', FALSE);
-define('SKIP_DEMO4', FALSE);
-define('SKIP_DEMO5', FALSE);
-define('SKIP_DEMO6', FALSE);
-define('SKIP_DEMO7', FALSE);
-define('SKIP_DEMO8', FALSE);
-define('SKIP_DEMO9', FALSE);
-define('SKIP_DEMO10', FALSE);
-define('SKIP_DEMO11', FALSE);
+define('SKIP_DEMO1', FALSE);
+define('SKIP_DEMO2', TRUE);
+define('SKIP_DEMO3', TRUE);
+define('SKIP_DEMO4', TRUE);
+define('SKIP_DEMO5', TRUE);
+define('SKIP_DEMO6', TRUE);
+define('SKIP_DEMO7', TRUE);
+define('SKIP_DEMO8', TRUE);
+define('SKIP_DEMO9', TRUE);
+define('SKIP_DEMO10', TRUE);
+define('SKIP_DEMO11', TRUE);
 
 /****************************************************************************
 There are two ways to connect to the Microsoft Dynamics 2011 CRM server.
