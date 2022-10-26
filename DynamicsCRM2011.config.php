@@ -10,6 +10,6 @@ $loginUsername = 'DevUser@johnfoord.com';
 $loginPassword = 'Fat39622';
 
 /* Example data used in the Demos */
-$demoCaseNumber = 'Q8276';
-$demoContactEmail = 'user@example.com';
+$demoCaseNumber = 'CAS-19932-G6X2H9';
+$demoContactEmail = 'nell@johnfoord.com';
 ?>
