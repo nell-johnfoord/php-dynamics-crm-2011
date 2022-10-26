@@ -39,7 +39,7 @@ This can take around 10 seconds, as large amounts of XML must be fetched and
 then parsed to determine the correct way to login, and the addresses to use
 *****************************************************************************/
 /* Connect to the Dynamics CRM 2011 server */
-echo date('Y-m-d H:i:s')."\tConnecting to the CRM...(index.php) \r\n";
+echo date('Y-m-d H:i:s')."\tConnecting to the CRM... (index.php) ";
 /*echo("\n");
 echo $discoveryServiceURI;
 echo("\n");
